@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Profiles from './Profiles';
 import HistorySample from './HistorySample';
+import UseRefSample from './UseRefSample';
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
         <li>
           <Link to="/history">예제</Link>
         </li>
+        <li>
+          <Link to="/userefS">useRef Sample</Link>
+        </li>
       </ul>
       <hr />
       <Switch>
@@ -28,6 +32,7 @@ const App = () => {
         <Route path="/about" component={About} />
         <Route path="/profiles" component={Profiles} />
         <Route path="/history" component={HistorySample} />
+        <Route path="/userefS" component={UseRefSample} />
         <Route 
           // path를 따로 정의하지 않으면 모든 상황에 렌더링됨
           render={({ location }) => (
