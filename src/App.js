@@ -7,6 +7,8 @@ import HistorySample from './HistorySample';
 import UseRefSample from './UseRefSample';
 import UserList from './UserList';
 
+import ResponsiveNav from './css-practice/ResponsiveNav';
+
 // useRef 2번째 기능
 /*
   컴포넌트 안에서 조회 및 수정 할 수 있는 변수를 관리하는 것
@@ -67,6 +69,9 @@ const App = () => {
         <li>
           <Link to="/userefS">useRef Sample</Link>
         </li>
+        <li>
+          <Link to="/ResponsiveNav">responsive navgation menu</Link>
+        </li>
       </ul>
       <hr />
       <Switch>
@@ -75,6 +80,7 @@ const App = () => {
         <Route path="/profiles" component={Profiles} />
         <Route path="/history" component={HistorySample} />
         <Route path="/userefS" component={UseRefSample} />
+        <Route path="/ResponsiveNav" component={ResponsiveNav} />
         <Route 
           // path를 따로 정의하지 않으면 모든 상황에 렌더링됨
           render={({ location }) => (
