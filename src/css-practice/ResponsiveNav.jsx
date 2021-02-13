@@ -11,22 +11,24 @@ function ResponsiveNav() {
         <div className="navigation">
             <div className="navArea">
                 <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">Home</a>
-                </ul>
-                <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">About</a>
-                </ul>
-                <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">Services</a>
-                </ul>
-                <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">Portfolio</a>
-                </ul>
-                <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">Team</a>
-                </ul>
-                <ul>
-                    <a href="#" onmouseenter="changeImage('host1')">Contact</a>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">About</a>
+                    </li>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">Team</a>
+                    </li>
+                    <li>
+                        <a href="#" onmouseenter="changeImage('host1')">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div className="imgArea">
